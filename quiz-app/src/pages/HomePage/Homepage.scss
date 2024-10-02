@@ -36,7 +36,6 @@
         margin: 20px auto;
         animation: flip 2s linear infinite;  /* Continuous flip animation */
         
-
         @keyframes flip {
         0% {
             transform: rotateY(0deg);
@@ -44,7 +43,7 @@
         100% {
             transform: rotateY(360deg);  /* Full horizontal flip */
         }
-}
+    }
     }
     &__btn{
         background-color: $orange;
