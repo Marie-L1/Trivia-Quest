@@ -1,0 +1,31 @@
+@use "../../styles/mixins" as *;
+@use "../../styles/variables" as *;
+
+.homepage{
+    background-image: url("../../assets/images/home-background.jpg");
+    background-size: cover;
+    
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+    }
+
+    &__welcome{
+        @include page-header;
+    }
+    &__title{
+        @include welcome-header;
+
+    }
+    &__img{
+        width: 200px;
+        height: 200px;
+    }
+    &__btn{
+
+    }
+}
