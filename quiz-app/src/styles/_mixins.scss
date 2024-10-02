@@ -15,8 +15,8 @@
 
 //MOBILE TEXT STYLES
 @mixin welcome-header{
-    font: JacquardBastard;
-    font-size: 1.75rem;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 2rem;
     line-height: 2.25rem;
 }
 @mixin page-header {
@@ -50,8 +50,8 @@
 
 //DESKTOP AND TABLET TEXT STYLES
 @mixin dt-welcome-header{
-    font: JacquardBastard;
-    font-size: 2rem;
+    font-family: "Pixelify Sans";
+    font-size: 3.5rem;
     line-height: 2.5rem;
 }
 @mixin dt-page-header {
