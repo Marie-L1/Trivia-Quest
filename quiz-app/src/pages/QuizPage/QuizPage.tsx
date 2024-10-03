@@ -36,14 +36,14 @@ function QuizPage({ questions }: Props) {
         }
     };
 
+    // Navigate to the results page if the quiz is finished
+    if (quizFinished) {
+        return <Navigate to="/results" state={{ score, total: questions.length }} />;
+    }
+
     // Ensure questions are available before rendering
     if (!questions || questions.length === 0) {
         return <div>Loading questions...</div>;
-    }
-
-    // Handle navigation to results page
-    if (quizFinished) {
-        return <Navigate to="/results" state={{ score, total: questions.length }} />;
     }
 
     const currentQuestionData = questions[currentQuestion];

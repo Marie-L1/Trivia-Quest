@@ -1,41 +1,25 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { useState, useEffect } from "react";
-import { getQuestions } from "./script/apiHandler";
 import './App.scss'
 import HomePage from "./pages/HomePage/HomePage";
 import QuizPage from "./pages/QuizPage/QuizPage";
 import Footer from "./components/Footer/Footer";
+import questions from "./data/q&a.json";
 
-type Question = {
-  category: string;
-  type: string;
-  difficulty: string;
-  question: string;
-  correct_answer: string;
-  incorrect_answers: string[];
-};
 function App() {
-  const [questions, setQuestions] = useState<Question[]>([]);
+  const getRandomQuestions = (questions: any) => {
+    const shuffled = [...questions].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, 5)
+  };
 
-    useEffect(() => {
-        const fetchQuestions = async () => {
-            try {
-                const fetchedQuestions = await getQuestions(10, "medium"); // Adjust as needed
-                setQuestions(fetchedQuestions);
-            } catch (error) {
-                console.error("Error fetching questions:", error);
-            }
-        };
+  const randomQuestions = getRandomQuestions(questions.questions)
 
-        fetchQuestions();
-    }, []);
-
+  
   return (
     <>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/quiz" element={<QuizPage questions={questions} />} />
+        <Route path="/quiz" element={<QuizPage questions={randomQuestions} />} />
       </Routes>
       <Footer />
     </BrowserRouter>
