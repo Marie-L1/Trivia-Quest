@@ -1,8 +1,12 @@
-import React from 'react'
+import "./ResultPage.scss"
 
 function ResultsPage() {
   return (
-    <div>ResultsPage</div>
+    <section className="results">
+        <div>
+
+        </div>
+    </section>
   )
 }
 
