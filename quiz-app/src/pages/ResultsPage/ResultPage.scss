@@ -1,2 +1,67 @@
 @use "../../styles/mixins" as *;
 @use "../../styles/variables" as *;
+
+
+.results{
+    background-image: url("../../assets//images/quiz-background.jpg");
+    background-size: cover;
+
+    &__content{
+        width: 80%;
+        height: 100vh;
+        gap: 10px;
+        @include flex-column-align-center;  
+        background-color: rgba(255, 255, 255, 0.8); 
+        padding: 10rem 5rem 15rem 5rem; 
+        border-radius: .5rem; 
+        max-width: 31.25rem; 
+        margin: auto;
+        box-shadow: 0 .25rem .5rem rgba(0, 0, 0, 0.2); 
+    }
+    &__title{
+        @include welcome-header;
+        margin-bottom: 30px;
+
+    }
+    &__total{
+        @include body-large;
+    }
+    &__hearts{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+    &__heart{
+        width: 30px;
+        height: 30px;
+        transition: transform 0.3s ease;
+    }
+    &__heart.animated{
+        animation: blink 0.5s infinite alternate;
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0.5;
+            }
+        }
+    }
+    &__btn{
+        background-color: $orange;
+        border-radius: 4px;
+        border: none;
+        color: $primary-light;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+
+        &:hover{
+            background-color: $brown;
+        }
+    }
+}
