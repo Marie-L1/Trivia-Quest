@@ -10,8 +10,8 @@ TBA
 ![Quiz page](./readme-imgs/quiz-readme.png)
 
 ## Technologies:
-Frontend: React.js, TypeScript, SCSS
-Routing: React Router
-State Management: React Hooks (useState)
-Animation: CSS keyframes for heart and sword animation
-Deployment: TBA
+- Frontend: React.js, TypeScript, SCSS
+- Routing: React Router
+- State Management: React Hooks (useState)
+- Animation: CSS keyframes for heart and sword animation
+- Deployment: TBA
