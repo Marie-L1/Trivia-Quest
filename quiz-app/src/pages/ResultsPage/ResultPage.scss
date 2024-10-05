@@ -1,12 +1,11 @@
 @use "../../styles/mixins" as *;
 @use "../../styles/variables" as *;
 
-.homepage{
-    background-image: url("../../assets/images/home-background.jpg");
+
+.results{
+    background-image: url("../../assets//images/quiz-background.jpg");
     background-size: cover;
-    width: 100%;
-    height: 100%;
-    
+
     &__content{
         width: 80%;
         height: 100vh;
@@ -19,33 +18,35 @@
         margin: auto;
         box-shadow: 0 .25rem .5rem rgba(0, 0, 0, 0.2); 
     }
-
-    &__welcome{
-        @include body-large;
-        margin-top: 100px;
-
-    }
     &__title{
         @include welcome-header;
         margin-bottom: 30px;
 
     }
-    &__img{
-        width: 110px;
-        height: 110px;
-        margin-bottom: 30px;
-        display: block;
-        margin: 20px auto;
-        animation: flip 2s linear infinite;  /* Continuous flip animation */
-        
-        @keyframes flip {
-        0% {
-            transform: rotateY(0deg);
-        }
-        100% {
-            transform: rotateY(360deg);  /* Full horizontal flip */
-        }
+    &__total{
+        @include body-large;
     }
+    &__hearts{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+    &__heart{
+        width: 30px;
+        height: 30px;
+        transition: transform 0.3s ease;
+    }
+    &__heart.animated{
+        animation: blink 0.5s infinite alternate;
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0.5;
+            }
+        }
     }
     &__btn{
         background-color: $orange;
@@ -62,15 +63,5 @@
         &:hover{
             background-color: $brown;
         }
-
-    }
-    @include tablet{
-        &__content{
-            width: 100%;
-        }
-        
-    }
-    @include desktop{
-
     }
 }
