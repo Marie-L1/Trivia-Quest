@@ -14,4 +14,4 @@ TBA
 - Routing: React Router
 - State Management: React Hooks (useState)
 - Animation: CSS keyframes for heart and sword animation
-- Deployment: TBA
+- Deployment: Netlify
