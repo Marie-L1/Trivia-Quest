@@ -5,7 +5,7 @@ import HomePage from "./pages/HomePage/HomePage";
 import QuizPage from "./pages/QuizPage/QuizPage";
 import ResultsPage from "./pages/ResultsPage/ResultsPage";
 import Footer from "./components/Footer/Footer";
-import questionsData from "./data/q&a.json"; // Import your questions
+import questionsData from "./data/q&a.json";
 
 function App() {
   const [score, setScore] = useState(0);
