@@ -9,7 +9,7 @@
     &__content{
         width: 80%;
         height: 100vh;
-        gap: 10px;
+        gap: .625rem;
         @include flex-column-align-center;  
         background-color: rgba(255, 255, 255, 0.8); 
         padding: 10rem 5rem 15rem 5rem; 
@@ -20,7 +20,7 @@
     }
     &__title{
         @include welcome-header;
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
 
     }
     &__total{
@@ -29,12 +29,12 @@
     &__hearts{
         display: flex;
         flex-direction: row;
-        gap: 10px;
-        margin-bottom: 30px;
+        gap: .625rem;
+        margin-bottom: 1.875rem;
     }
     &__heart{
-        width: 30px;
-        height: 30px;
+        width: 2.5rem;
+        height: 2.5rem;
         transition: transform 0.3s ease;
     }
     &__heart.animated{
@@ -50,18 +50,59 @@
     }
     &__btn{
         background-color: $orange;
-        border-radius: 4px;
+        border-radius: .25rem;
         border: none;
         color: $primary-light;
-        padding: 10px 20px;
+        padding: .625rem 1.25rem;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
         cursor: pointer;
+        @include labels-links-buttons;
 
         &:hover{
             background-color: $brown;
         }
+    }
+    @include tablet{
+        &__title{
+            @include dt-welcome-header;
+            margin-bottom: 1.875rem;
+        }
+        &__total{
+            @include dt-body-large;
+        }
+        &__heart{
+            width: 3.5rem;
+            height: 3.5rem;
+        }
+        &__btn{
+            padding: 1rem 2rem;
+            @include labels-links-buttons;
+        }
+    }
+    @include desktop{
+        &__content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__title{
+            @include dt-welcome-header;
+            margin-bottom: 1.875rem;
+        }
+        &__total{
+            @include dt-body-large;
+        }
+        &__heart{
+            width: 3.5rem;
+            height: 3.5rem;
+        }
+        &__btn{
+            padding: 1rem 2rem;
+            @include labels-links-buttons;
+        }
+
     }
 }
