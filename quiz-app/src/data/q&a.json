@@ -239,7 +239,127 @@
         "Carcassonne",
         "Risk"
         ]
+    },
+    {
+      "category": "Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In which game do you catch creatures called 'Pokémon'?",
+      "correct_answer": "Pokémon",
+      "incorrect_answers": [
+        "Digimon",
+        "Yu-Gi-Oh!",
+        "Monster Hunter"
+      ]
+    },
+    {
+      "category": "Anime",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In 'My Hero Academia,' what is the name of the main character who aspires to be a hero?",
+      "correct_answer": "Izuku Midoriya",
+      "incorrect_answers": [
+        "Katsuki Bakugo",
+        "All Might",
+        "Shoto Todoroki"
+      ]
+    },
+    {
+      "category": "Fantasy",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the name of the magical land where 'The Chronicles of Narnia' takes place?",
+      "correct_answer": "Narnia",
+      "incorrect_answers": [
+        "Hogwarts",
+        "Middle-earth",
+        "Alderaan"
+      ]
+    },
+    {
+      "category": "Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of the green hero in 'The Legend of Zelda' series?",
+      "correct_answer": "Link",
+      "incorrect_answers": [
+        "Zelda",
+        "Ganon",
+        "Tingle"
+      ]
+    },
+    {
+      "category": "Anime",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In 'One Piece,' what is the name of the pirate crew led by Monkey D. Luffy?",
+      "correct_answer": "Straw Hat Pirates",
+      "incorrect_answers": [
+        "Blackbeard Crew",
+        "Heart Pirates",
+        "Red-Haired Pirates"
+      ]
+    },
+    {
+      "category": "Fantasy",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the name of the dragon in 'How to Train Your Dragon'?",
+      "correct_answer": "Toothless",
+      "incorrect_answers": [
+        "Stormfly",
+        "Hookfang",
+        "Meatlug"
+      ]
+    },
+    {
+      "category": "Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In 'Minecraft,' what do you need to collect to build a bed?",
+      "correct_answer": "Wool and Wood",
+      "incorrect_answers": [
+        "Stone and Iron",
+        "Gold and Diamonds",
+        "Sand and Glass"
+      ]
+    },
+    {
+      "category": "Anime",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In 'Dragon Ball Z,' who is Goku's main rival turned ally?",
+      "correct_answer": "Vegeta",
+      "incorrect_answers": [
+        "Frieza",
+        "Piccolo",
+        "Cell"
+      ]
+    },
+    {
+      "category": "Fantasy",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the name of the hobbit who carries the One Ring in 'The Lord of the Rings'?",
+      "correct_answer": "Frodo Baggins",
+      "incorrect_answers": [
+        "Samwise Gamgee",
+        "Gandalf",
+        "Gollum"
+      ]
+    },
+    {
+      "category": "Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of the blue hedgehog in video games known for his speed?",
+      "correct_answer": "Sonic",
+      "incorrect_answers": [
+        "Tails",
+        "Knuckles",
+        "Shadow"
+      ]
     }
-    ]
-  }
+  ]
+}
   

@@ -1,37 +1,46 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
-import './App.scss'
+import './App.scss';
 import HomePage from "./pages/HomePage/HomePage";
 import QuizPage from "./pages/QuizPage/QuizPage";
 import ResultsPage from "./pages/ResultsPage/ResultsPage";
 import Footer from "./components/Footer/Footer";
-import questions from "./data/q&a.json";
+import questionsData from "./data/q&a.json";
 
 function App() {
   const [score, setScore] = useState(0);
+  const [questions, setQuestions] = useState(questionsData.questions); // Initialize questions state
   const totalQuestions = 5;
 
-  const getRandomQuestions = (questions: any) => {
-    const shuffled = [...questions].sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, totalQuestions);
+  // Reset score and questions when starting a new quiz
+  const resetQuiz = () => {
+    setScore(0);
+    setQuestions(questionsData.questions); // Reset questions back to the original state
   };
 
-  const randomQuestions = getRandomQuestions(questions.questions)
-
-  
   return (
     <>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/quiz" element={<QuizPage questions={randomQuestions} />} />
-        <Route path="/results" 
-        element={<ResultsPage score={score} total={totalQuestions} />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage onStart={resetQuiz} />} />
+          <Route 
+            path="/quiz" 
+            element={<QuizPage questions={questions} setScore={setScore} />} 
+          />
+          <Route 
+            path="/results" 
+            element={
+              <ResultsPage 
+                score={score} 
+                total={totalQuestions} 
+                onRestart={resetQuiz} // Pass resetQuiz as onRestart
+              />} 
+          />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -5,16 +5,18 @@ import heart from "../../assets/icons/heart.svg";
 type Props = {
   score: number;
   total: number;
+  onRestart: () => void; // Add the onRestart prop
 };
 
-function ResultsPage({ score, total }: Props) {
+function ResultsPage({ score, total, onRestart }: Props) {
   const navigate = useNavigate();
 
   // Create an array of hearts based on the score
   const hearts = Array.from({ length: total }, (_, index) => index < score);
 
   const handleClick = () => {
-    navigate("/");
+    onRestart(); // Call the onRestart function
+    navigate("/"); // Navigate to the home page
   };
 
   return (
