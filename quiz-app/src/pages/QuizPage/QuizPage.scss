@@ -1,0 +1,68 @@
+@use "../../styles/mixins" as *;
+@use "../../styles/variables" as *;
+
+.quiz-page{
+    background-image: url("../../assets/images/quiz-background.jpg");
+    background-size: cover;
+
+    &__content{
+        width: 80%;
+        height: 100vh;
+        gap: 10px;
+        @include flex-column;
+        justify-content: center;
+        align-items: center;  
+        background-color: rgba(255, 255, 255, 0.8); 
+        padding: 10rem 5rem 15rem 5rem; 
+        border-radius: .5rem; 
+        max-width: 31.25rem; 
+        margin: auto;
+        box-shadow: 0 .25rem .5rem rgba(0, 0, 0, 0.2); 
+    }
+    &__track{
+        @include body-large;
+    }
+    &__question{
+        background-color: rgba(157, 87, 22, 0.8); 
+        border-radius: .25rem;
+        padding: 1.875rem 40px;
+        text-align: center;
+        margin-bottom: 3.125rem;
+        @include body-large;
+    }
+    &__answers-wrapper{
+        @include flex-column;
+        gap: 3.125rem;
+    }
+    &__answer{
+        list-style-type: none;
+        padding: 1.25rem .625rem;
+        width: 16.875rem;
+        background-color: $primary-blue;
+        border-radius: .25rem;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        @include body-medium;
+
+        &:hover{
+            background-color: $secondary-blue;
+        }
+    }
+    @include tablet{
+        &__question{
+            @include dt-body-large;
+        }
+        &__answer{
+            @include dt-body-medium;
+        }
+    }
+    @include desktop{
+        &__question{
+            @include dt-body-large;
+        }
+        &__answer{
+            @include dt-body-medium;
+        }
+    }
+}

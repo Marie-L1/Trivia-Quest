@@ -1,0 +1,23 @@
+@use "../../styles/mixins" as *;
+@use "../../styles/variables" as *;
+
+.footer{
+    display: flex;
+    text-align: center;
+     &__content{
+        @include body-small;
+         width: 100%;
+         padding: 1.25rem;
+         background-color: $secondary-blue;
+     }
+    @include tablet{
+        &__content{
+            @include dt-body-small;
+         }
+    }
+    @include desktop{
+        &__content{
+            @include dt-body-small;
+         }
+    }
+}

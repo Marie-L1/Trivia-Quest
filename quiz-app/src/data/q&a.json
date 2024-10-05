@@ -1,0 +1,365 @@
+{
+    "questions": [
+      {
+        "category": "Anime",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the name of the main protagonist in the anime 'Naruto'?",
+        "correct_answer": "Naruto Uzumaki",
+        "incorrect_answers": [
+          "Sasuke Uchiha",
+          "Sakura Haruno",
+          "Kakashi Hatake"
+        ]
+      },
+      {
+        "category": "Anime",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In 'Dragon Ball Z', what is Goku's Saiyan birth name?",
+        "correct_answer": "Kakarot",
+        "incorrect_answers": [
+          "Vegeta",
+          "Bardock",
+          "Raditz"
+        ]
+      },
+      {
+        "category": "Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the name of Mario's brother in the 'Super Mario' series?",
+        "correct_answer": "Luigi",
+        "incorrect_answers": [
+          "Wario",
+          "Toad",
+          "Bowser"
+        ]
+      },
+      {
+        "category": "Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In which game do players compete in the 'Battle Royale' to be the last one standing?",
+        "correct_answer": "Fortnite",
+        "incorrect_answers": [
+          "Apex Legends",
+          "PUBG",
+          "Call of Duty: Warzone"
+        ]
+      },
+      {
+        "category": "Fantasy Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In J.R.R. Tolkien's 'The Lord of the Rings', what is the name of the hobbit who carries the One Ring?",
+        "correct_answer": "Frodo Baggins",
+        "incorrect_answers": [
+          "Samwise Gamgee",
+          "Bilbo Baggins",
+          "Peregrin Took"
+        ]
+      },
+      {
+        "category": "Fantasy Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In 'Harry Potter', what is the name of Harry's owl?",
+        "correct_answer": "Hedwig",
+        "incorrect_answers": [
+          "Errol",
+          "Pigwidgeon",
+          "Crookshanks"
+        ]
+      },
+      {
+        "category": "Board Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In the game 'Monopoly', what must players do if they land on the 'Go to Jail' space?",
+        "correct_answer": "Go directly to jail",
+        "incorrect_answers": [
+          "Move back three spaces",
+          "Pay a fine",
+          "Take another turn"
+        ]
+      },
+      {
+        "category": "Board Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which game involves capturing all of your opponent's pieces to win?",
+        "correct_answer": "Checkers",
+        "incorrect_answers": [
+          "Chess",
+          "Backgammon",
+          "Scrabble"
+        ]
+      },
+    {
+        "category": "Anime",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In the anime 'One Piece', what is Monkey D. Luffy's goal?",
+        "correct_answer": "To become the Pirate King",
+        "incorrect_answers": [
+        "To become the strongest swordsman",
+        "To find the All Blue",
+        "To overthrow the Marines"
+        ]
+    },
+    {
+        "category": "Anime",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which anime features a character named Edward Elric searching for the Philosopher's Stone?",
+        "correct_answer": "Fullmetal Alchemist",
+        "incorrect_answers": [
+        "Naruto",
+        "Attack on Titan",
+        "My Hero Academia"
+        ]
+    },
+    {
+        "category": "Anime",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What is the highest form of power in the anime 'Dragon Ball Super'?",
+        "correct_answer": "Ultra Instinct",
+        "incorrect_answers": [
+        "Super Saiyan Blue",
+        "Super Saiyan 4",
+        "God of Destruction"
+        ]
+    },
+    {
+        "category": "Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which video game features a plumber saving a princess from a turtle-like villain?",
+        "correct_answer": "Super Mario",
+        "incorrect_answers": [
+        "The Legend of Zelda",
+        "Donkey Kong",
+        "Pac-Man"
+        ]
+    },
+    {
+        "category": "Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the game 'Minecraft', what are Creepers afraid of?",
+        "correct_answer": "Cats",
+        "incorrect_answers": [
+        "Water",
+        "Zombies",
+        "Spiders"
+        ]
+    },
+    {
+        "category": "Video Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the game 'The Legend of Zelda: Breath of the Wild', how many divine beasts must Link free?",
+        "correct_answer": "Four",
+        "incorrect_answers": [
+        "Three",
+        "Five",
+        "Seven"
+        ]
+    },
+    {
+        "category": "Fantasy Books",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In 'Harry Potter', who is the headmaster of Hogwarts?",
+        "correct_answer": "Albus Dumbledore",
+        "incorrect_answers": [
+        "Severus Snape",
+        "Minerva McGonagall",
+        "Rubeus Hagrid"
+        ]
+    },
+    {
+        "category": "Fantasy Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the 'Percy Jackson' series, who is the godly parent of Percy?",
+        "correct_answer": "Poseidon",
+        "incorrect_answers": [
+        "Zeus",
+        "Ares",
+        "Apollo"
+        ]
+    },
+    {
+        "category": "Fantasy Books",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Who wrote the 'Mistborn' series?",
+        "correct_answer": "Brandon Sanderson",
+        "incorrect_answers": [
+        "J.R.R. Tolkien",
+        "George R.R. Martin",
+        "Robert Jordan"
+        ]
+    },
+    {
+        "category": "Board Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which game is known as 'the game of life' where players navigate different stages of life?",
+        "correct_answer": "The Game of Life",
+        "incorrect_answers": [
+        "Monopoly",
+        "Clue",
+        "Sorry!"
+        ]
+    },
+    {
+        "category": "Board Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In 'Scrabble', what is the value of the letter 'Z'?",
+        "correct_answer": "10",
+        "incorrect_answers": [
+        "8",
+        "6",
+        "12"
+        ]
+    },
+    {
+        "category": "Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which board game involves creating railway routes across North America?",
+        "correct_answer": "Ticket to Ride",
+        "incorrect_answers": [
+        "Catan",
+        "Carcassonne",
+        "Risk"
+        ]
+    },
+    {
+      "category": "Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In which game do you catch creatures called 'Pokémon'?",
+      "correct_answer": "Pokémon",
+      "incorrect_answers": [
+        "Digimon",
+        "Yu-Gi-Oh!",
+        "Monster Hunter"
+      ]
+    },
+    {
+      "category": "Anime",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In 'My Hero Academia,' what is the name of the main character who aspires to be a hero?",
+      "correct_answer": "Izuku Midoriya",
+      "incorrect_answers": [
+        "Katsuki Bakugo",
+        "All Might",
+        "Shoto Todoroki"
+      ]
+    },
+    {
+      "category": "Fantasy",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the name of the magical land where 'The Chronicles of Narnia' takes place?",
+      "correct_answer": "Narnia",
+      "incorrect_answers": [
+        "Hogwarts",
+        "Middle-earth",
+        "Alderaan"
+      ]
+    },
+    {
+      "category": "Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of the green hero in 'The Legend of Zelda' series?",
+      "correct_answer": "Link",
+      "incorrect_answers": [
+        "Zelda",
+        "Ganon",
+        "Tingle"
+      ]
+    },
+    {
+      "category": "Anime",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In 'One Piece,' what is the name of the pirate crew led by Monkey D. Luffy?",
+      "correct_answer": "Straw Hat Pirates",
+      "incorrect_answers": [
+        "Blackbeard Crew",
+        "Heart Pirates",
+        "Red-Haired Pirates"
+      ]
+    },
+    {
+      "category": "Fantasy",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the name of the dragon in 'How to Train Your Dragon'?",
+      "correct_answer": "Toothless",
+      "incorrect_answers": [
+        "Stormfly",
+        "Hookfang",
+        "Meatlug"
+      ]
+    },
+    {
+      "category": "Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In 'Minecraft,' what do you need to collect to build a bed?",
+      "correct_answer": "Wool and Wood",
+      "incorrect_answers": [
+        "Stone and Iron",
+        "Gold and Diamonds",
+        "Sand and Glass"
+      ]
+    },
+    {
+      "category": "Anime",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In 'Dragon Ball Z,' who is Goku's main rival turned ally?",
+      "correct_answer": "Vegeta",
+      "incorrect_answers": [
+        "Frieza",
+        "Piccolo",
+        "Cell"
+      ]
+    },
+    {
+      "category": "Fantasy",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the name of the hobbit who carries the One Ring in 'The Lord of the Rings'?",
+      "correct_answer": "Frodo Baggins",
+      "incorrect_answers": [
+        "Samwise Gamgee",
+        "Gandalf",
+        "Gollum"
+      ]
+    },
+    {
+      "category": "Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of the blue hedgehog in video games known for his speed?",
+      "correct_answer": "Sonic",
+      "incorrect_answers": [
+        "Tails",
+        "Knuckles",
+        "Shadow"
+      ]
+    }
+  ]
+}
+  
