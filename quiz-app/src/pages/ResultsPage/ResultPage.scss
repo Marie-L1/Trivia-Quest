@@ -10,7 +10,9 @@
         width: 80%;
         height: 100vh;
         gap: .625rem;
-        @include flex-column-align-center;  
+        @include flex-column;  
+        justify-content: center;
+        align-items: center;
         background-color: rgba(255, 255, 255, 0.8); 
         padding: 10rem 5rem 15rem 5rem; 
         border-radius: .5rem; 
@@ -83,11 +85,6 @@
         }
     }
     @include desktop{
-        &__content{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
         &__title{
             @include dt-welcome-header;
             margin-bottom: 1.875rem;
