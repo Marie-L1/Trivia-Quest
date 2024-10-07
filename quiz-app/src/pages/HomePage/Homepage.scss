@@ -24,7 +24,8 @@
         margin-top: 6.25rem;
     }
     &__title{
-        @include welcome-header;
+        font-family: "Pixelify Sans";
+        font-size: 3rem;
         margin-bottom: 1.875rem;
     }
     &__img{
