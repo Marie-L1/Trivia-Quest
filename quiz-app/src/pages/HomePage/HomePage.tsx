@@ -1,4 +1,4 @@
-import "./HomePage.scss"
+import "./Homepage.scss";
 import sword from "../../assets/icons/sword.svg";
 import { useNavigate } from "react-router-dom";
 
