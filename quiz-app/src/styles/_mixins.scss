@@ -15,7 +15,7 @@
 
 //MOBILE TEXT STYLES
 @mixin welcome-header{
-    font-family: "Pixelify Sans";
+    font-family: "Pixelify Sans", "Arial";
     font-size: 2rem;
     line-height: 2.25rem;
 }
@@ -50,7 +50,7 @@
 
 //DESKTOP AND TABLET TEXT STYLES
 @mixin dt-welcome-header{
-    font-family: "Pixelify Sans";
+    font-family: "Pixelify Sans", "Arial";
     font-size: 3rem;
     line-height: 2.5rem;
 }
