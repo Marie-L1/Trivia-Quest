@@ -2,10 +2,15 @@ import "./HomePage.scss"
 import sword from "../../assets/icons/sword.svg";
 import { useNavigate } from "react-router-dom";
 
-function HomePage() {
+interface HomePageProps {
+  onStart: () => void;  // Expecting a function prop called 'onStart'
+}
+
+function HomePage({onStart}: HomePageProps) {
   const navigate = useNavigate();
 
   const handleClick = () => {
+    onStart();
     navigate("/quiz");
   }
   return (
